@@ -96,7 +96,7 @@ Oracle VirtualBox was downloaded and installed as the virtualization platform fo
 
 VirtualBox provides the virtualization layer required to run Kali Linux and future target virtual machines in an isolated environment.
 
-https://github.com/ShaharyarHussain533/ShaharyarHussain533-NETWORKWALKS-Shaharyar-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/58df5f3b3f612bb5fbd43382a5dda21feef0e1f6/KALI%20DOWNLOAD.png
+![image alt](https://github.com/ShaharyarHussain533/ShaharyarHussain533-NETWORKWALKS-Shaharyar-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/58df5f3b3f612bb5fbd43382a5dda21feef0e1f6/KALI%20DOWNLOAD.png)
 
 
 
