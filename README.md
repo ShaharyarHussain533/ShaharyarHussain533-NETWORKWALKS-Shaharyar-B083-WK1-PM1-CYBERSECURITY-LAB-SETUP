@@ -118,6 +118,9 @@ A custom NAT Network named **`NATNETWORK`** was created in VirtualBox.
 
 The NAT Network allows the virtual machines to communicate with each other while providing controlled internet connectivity through VirtualBox.
 
+
+![image alt](https://github.com/ShaharyarHussain533/ShaharyarHussain533-NETWORKWALKS-Shaharyar-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/9782183fff32118daaece64347c797604e85a57c/NAT%20CONNECTION.png)
+
 ---
 
 ## Step 3: Import Kali Linux VM
@@ -125,6 +128,8 @@ The NAT Network allows the virtual machines to communicate with each other while
 The official **Kali Linux VirtualBox image** was imported into VirtualBox and configured as the designated attacker machine for the lab.
 
 Kali Linux provides the security-focused operating system and tools required for future penetration testing and security assessment exercises.
+
+![image alt](https://github.com/ShaharyarHussain533/ShaharyarHussain533-NETWORKWALKS-Shaharyar-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/9782183fff32118daaece64347c797604e85a57c/Kali%20VM%20%E2%86%92%20Settings%20%E2%86%92%20Shared%20Folders%2C.png)
 
 ---
 
@@ -143,6 +148,11 @@ The Kali Linux VM's **Adapter 1** was configured to connect directly to the cust
 
 This places the Kali VM inside the isolated `10.0.0.0/24` lab network.
 
+![image alt](https://github.com/ShaharyarHussain533/ShaharyarHussain533-NETWORKWALKS-Shaharyar-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/9782183fff32118daaece64347c797604e85a57c/Screenshot%20(112).png)
+
+
+![image alt](https://github.com/ShaharyarHussain533/ShaharyarHussain533-NETWORKWALKS-Shaharyar-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/9782183fff32118daaece64347c797604e85a57c/NAT%20NETWORK.png)
+
 ---
 
 ## Step 5: Enable Clipboard, Drag & Drop, and Shared Folders
@@ -158,6 +168,7 @@ To improve workflow efficiency between the Windows host and Kali Linux guest, th
 | **Auto-Mount**       | Enabled                    |
 
 These features make it easier to transfer files and information between the host and the cybersecurity lab environment.
+
 
 ---
 
@@ -176,6 +187,7 @@ The Kali Linux network interface was manually configured with a static IP addres
 | **DNS Server** | `8.8.8.8`              |
 
 The static address ensures that the Kali VM can consistently be reached at `10.0.0.2` during future lab exercises.
+![image alt](https://github.com/ShaharyarHussain533/ShaharyarHussain533-NETWORKWALKS-Shaharyar-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/9782183fff32118daaece64347c797604e85a57c/IPV4%20SETTINGS.png)
 
 ---
 
@@ -222,30 +234,11 @@ ping -c 4 google.com
 ```
 
 This can be used to verify that DNS resolution is functioning correctly.
+![image alt](https://github.com/ShaharyarHussain533/ShaharyarHussain533-NETWORKWALKS-Shaharyar-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/9782183fff32118daaece64347c797604e85a57c/ip%20a%20kali%20linux.png)
 
 ---
 
-## 📸 Screenshots
 
-Screenshots documenting the lab setup and configuration can be added below.
-
-### VirtualBox NAT Network
-
-*Add screenshot here.*
-
-### Kali Linux Network Adapter
-
-*Add screenshot here.*
-
-### Kali Linux IP Configuration
-
-*Add screenshot here.*
-
-### Network Connectivity Test
-
-*Add screenshot here.*
-
----
 
 ## 💾 VM Snapshots
 
